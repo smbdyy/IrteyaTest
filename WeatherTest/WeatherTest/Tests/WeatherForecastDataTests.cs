@@ -30,9 +30,9 @@ public class WeatherForecastDataTests : TestBase
     {
         _page.Navigate();
         var tableData = _page.GetForecastTable().ToList();
-        var apiData = (await _source.GetForecastAsync()).ToList();
+        var sourceData = (await _source.GetForecastAsync()).ToList();
 
-        Assert.That(tableData, Is.EqualTo(apiData));
+        Assert.That(tableData, Is.EqualTo(sourceData));
     }
 
     [TearDown]
