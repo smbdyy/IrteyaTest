@@ -5,9 +5,9 @@ namespace WeatherApi.WeatherForecastProviders.Json;
 
 public class JsonWeatherForecastProvider : IWeatherForecastProvider
 {
-    private readonly IOptionsMonitor<WeatherForecastConfig> _weatherForecastConfig;
+    private readonly IOptionsMonitor<WeatherForecastOptions> _weatherForecastConfig;
 
-    public JsonWeatherForecastProvider(IOptionsMonitor<WeatherForecastConfig> weatherForecastConfig)
+    public JsonWeatherForecastProvider(IOptionsMonitor<WeatherForecastOptions> weatherForecastConfig)
     {
         _weatherForecastConfig = weatherForecastConfig;
     }

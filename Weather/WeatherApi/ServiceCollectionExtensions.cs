@@ -10,11 +10,11 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        services.Configure<WeatherForecastConfig>(
-            configuration.GetSection("WeatherForecast")
+        services.Configure<WeatherForecastOptions>(
+            configuration.GetSection(WeatherForecastOptions.SectionName)
         );
         
-        services.AddSingleton<IValidateOptions<WeatherForecastConfig>, WeatherForecastConfigValidator>();
+        services.AddSingleton<IValidateOptions<WeatherForecastOptions>, WeatherForecastOptionsValidator>();
 
         services.AddScoped<IWeatherForecastProvider, JsonWeatherForecastProvider>();
 
