@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1285","CanNavigateToHome","","2025-11-19","passed","2025-11-19","Home Page Navigation","Navigation Tests","NavigationTests","CanNavigateToHome"
+"","1514","WeatherTableMatchesApi","","2025-11-19","passed","2025-11-19","Table Validation","Weather Forecast Data Tests","WeatherForecastDataTests","WeatherTableMatchesApi"
+"","1288","CanNavigateToWeather","","2025-11-19","passed","2025-11-19","Weather Page Navigation","Navigation Tests","NavigationTests","CanNavigateToWeather"
+"","897","CanNavigateToCounter","","2025-11-19","passed","2025-11-19","Counter Page Navigation","Navigation Tests","NavigationTests","CanNavigateToCounter"
