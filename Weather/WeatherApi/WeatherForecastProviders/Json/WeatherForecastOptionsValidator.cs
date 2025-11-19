@@ -3,12 +3,12 @@ using WeatherApi.WeatherForecastProviders.Helpers;
 
 namespace WeatherApi.WeatherForecastProviders.Json;
 
-public class WeatherForecastConfigValidator : IValidateOptions<WeatherForecastConfig>
+public class WeatherForecastOptionsValidator : IValidateOptions<WeatherForecastOptions>
 {
-    public ValidateOptionsResult Validate(string? name, WeatherForecastConfig config)
+    public ValidateOptionsResult Validate(string? name, WeatherForecastOptions options)
     {
         var duplicateDates = WeatherForecastValidationHelper
-            .GetDuplicateDates(config.WeatherForecast)
+            .GetDuplicateDates(options.WeatherForecast)
             .ToArray();
 
         if (duplicateDates.Length != 0)
