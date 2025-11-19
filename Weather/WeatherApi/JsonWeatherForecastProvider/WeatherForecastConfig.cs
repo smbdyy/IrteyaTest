@@ -1,0 +1,5 @@
+using WeatherApi.WeatherForecastProvider;
+
+namespace WeatherApi.JsonWeatherForecastProvider;
+
+public record WeatherForecastConfig(IReadOnlyList<WeatherForecastDto> WeatherForecast);
