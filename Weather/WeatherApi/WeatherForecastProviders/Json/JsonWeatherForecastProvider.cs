@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Options;
-using WeatherApi.WeatherForecastProvider;
+using WeatherApi.WeatherForecastProviders.Abstractions;
 
-namespace WeatherApi.JsonWeatherForecastProvider;
+namespace WeatherApi.WeatherForecastProviders.Json;
 
 public class JsonWeatherForecastProvider : IWeatherForecastProvider
 {

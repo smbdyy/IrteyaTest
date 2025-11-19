@@ -1,4 +1,4 @@
-namespace WeatherApi.WeatherForecastProvider;
+namespace WeatherApi.WeatherForecastProviders.Abstractions;
 
 public interface IWeatherForecastProvider
 {
