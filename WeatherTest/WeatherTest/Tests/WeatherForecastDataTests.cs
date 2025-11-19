@@ -3,6 +3,7 @@ using WeatherTest.Services;
 
 namespace WeatherTest.Tests;
 
+[TestFixture]
 public class WeatherForecastDataTests : TestBase
 {
     private HttpClient _client;
