@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Options;
 using WeatherApi.WeatherForecastProviders.Abstractions;
 using WeatherApi.WeatherForecastProviders.Json;
 
@@ -12,6 +13,8 @@ public static class ServiceCollectionExtensions
         services.Configure<WeatherForecastConfig>(
             configuration.GetSection("WeatherForecast")
         );
+        
+        services.AddSingleton<IValidateOptions<WeatherForecastConfig>, WeatherForecastConfigValidator>();
 
         services.AddScoped<IWeatherForecastProvider, JsonWeatherForecastProvider>();
 
