@@ -1,4 +1,4 @@
-using Weather.Components;
+using BlazorWeather.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

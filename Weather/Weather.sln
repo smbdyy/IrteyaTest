@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{394A95BA-9088-4426-B3C0-A1E21FB737CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWeather", "BlazorWeather\BlazorWeather.csproj", "{394A95BA-9088-4426-B3C0-A1E21FB737CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "WeatherApi\WeatherApi.csproj", "{7B6CEC1D-6A52-4745-B046-D30F3BAD3EC2}"
 EndProject
