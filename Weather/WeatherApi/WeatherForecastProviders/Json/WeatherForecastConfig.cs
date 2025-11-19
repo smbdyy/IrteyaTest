@@ -2,4 +2,7 @@ using WeatherApi.WeatherForecastProviders.Abstractions;
 
 namespace WeatherApi.WeatherForecastProviders.Json;
 
-public record WeatherForecastConfig(IReadOnlyList<WeatherForecastDto> WeatherForecast);
+public class WeatherForecastConfig
+{
+    public IReadOnlyList<WeatherForecastDto> WeatherForecast { get; set; }
+}

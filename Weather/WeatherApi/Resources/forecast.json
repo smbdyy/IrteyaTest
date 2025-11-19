@@ -1,14 +1,16 @@
 {
-  "Forecast": [
-    { "date": "2025-11-20", "temperatureC": 5, "summary": "Cloudy" },
-    { "date": "2025-11-21", "temperatureC": 2, "summary": "Sunny" },
-    { "date": "2025-11-22", "temperatureC": -1, "summary": "Snow" },
-    { "date": "2025-11-23", "temperatureC": 0, "summary": "Foggy" },
-    { "date": "2025-11-24", "temperatureC": 3, "summary": "Rain" },
-    { "date": "2025-11-25", "temperatureC": 4, "summary": "Cloudy" },
-    { "date": "2025-11-26", "temperatureC": 6, "summary": "Sunny" },
-    { "date": "2025-11-27", "temperatureC": 1, "summary": "Snow" },
-    { "date": "2025-11-28", "temperatureC": 2, "summary": "Windy" },
-    { "date": "2025-11-29", "temperatureC": 3, "summary": "Rain" }
-  ]
+  "WeatherForecast": {
+    "WeatherForecast": [
+      { "date": "2025-11-20", "temperatureC": 5, "summary": "Cloudy" },
+      { "date": "2025-11-21", "temperatureC": 2, "summary": "Sunny" },
+      { "date": "2025-11-22", "temperatureC": -1, "summary": "Snow" },
+      { "date": "2025-11-23", "temperatureC": 0, "summary": "Foggy" },
+      { "date": "2025-11-24", "temperatureC": 3, "summary": "Rain" },
+      { "date": "2025-11-25", "temperatureC": 4, "summary": "Cloudy" },
+      { "date": "2025-11-26", "temperatureC": 6, "summary": "Sunny" },
+      { "date": "2025-11-27", "temperatureC": 1, "summary": "Snow" },
+      { "date": "2025-11-28", "temperatureC": 2, "summary": "Windy" },
+      { "date": "2025-11-29", "temperatureC": 3, "summary": "Rain" }
+    ]
+  }
 }
