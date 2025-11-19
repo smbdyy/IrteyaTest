@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Options;
-using WeatherApi.WeatherForecastProviders.Validation;
+using WeatherApi.WeatherForecastProviders.Helpers;
 
 namespace WeatherApi.WeatherForecastProviders.Json;
 

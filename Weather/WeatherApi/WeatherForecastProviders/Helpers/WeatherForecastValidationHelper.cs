@@ -1,6 +1,6 @@
 using WeatherApi.WeatherForecastProviders.Abstractions;
 
-namespace WeatherApi.WeatherForecastProviders.Validation;
+namespace WeatherApi.WeatherForecastProviders.Helpers;
 
 public static class WeatherForecastValidationHelper
 {
